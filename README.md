@@ -6,15 +6,15 @@ The code pre-processes the data by turning categorical data to numeric columns, 
 
 # Analysis
 
-Regarding the testing score, the methods performed as follows:
+Regarding the testing data score, the methods performed as follows:
 
-    Logistic Regression, Scaled - Testing Data Score: 0.7201190982560612
+    Logistic Regression, Scaled - Testing Data Score: 0.7201
 
-    Random Forest, Scaled - Testing Data Score: 0.6193109315185028
+    Random Forest, Scaled - Testing Data Score: 0.6193
 
-    Random Forest, Not Scaled - Testing Data Score: 0.6180348787749894
+    Random Forest, Not Scaled - Testing Data Score: 0.6180
 
-    Logistic Regression, Not Scaled - Testing Data Score: 0.5253083794130158
+    Logistic Regression, Not Scaled - Testing Data Score: 0.5253
 
 Prediction 1: Logistic Regression will perform better than Random Forests before scaling because the data has more continuous variables than categorical variables - **Incorrect**
 
