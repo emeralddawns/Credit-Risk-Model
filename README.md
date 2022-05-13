@@ -1,20 +1,20 @@
 # supervised-machine-learning
-This assignment consisted of python, pandas, and sklearn to build a machine learning model.
+This assignment consisted of using python, pandas, and sklearn to build a machine learning model.
 
 # What the code does (in general terms)
-The code pre-processes the data by turning categorical data to numeric columns, creating a dummy column where needed, fitting the data to  LogisticRegression model and a RandomForestClassifier model, and printing out the score. Then the data is further processed by scaling the numeric columns, fitting the models again, and printing out the score.  Predictions were made before each step and used for analysis
+The code pre-processes the data by turning categorical data to numeric columns, creating a dummy column where needed, fitting the data to a LogisticRegression model and a RandomForestClassifier model, and printing out the score. Then the data is further processed by scaling the numeric columns, fitting the models again, and printing out the score.  Predictions were made before each step and used for analysis
 
 # Analysis
 
 Regarding the testing score, the methods performed as follows:
 
-    Logistic Regression, Scaling Testing Data Score: 0.7201190982560612
+    Logistic Regression, Scaling - Testing Data Score: 0.7201190982560612
 
-    Random Forest, Scaling Testing Score: 0.6193109315185028
+    Random Forest, Scaling - Testing Data Score: 0.6193109315185028
 
-    Random Forest, No Scaling Testing Score: 0.6180348787749894
+    Random Forest, No Scaling - Testing Data Score: 0.6180348787749894
 
-    Logistic Regression, No Scaling Testing Data Score: 0.5253083794130158
+    Logistic Regression, No Scaling - Testing Data Score: 0.5253083794130158
 
 Prediction 1: Logistic Regression will perform better than Random Forests before scaling because the data has more continuous variables than categorical variables - **Incorrect**
 
