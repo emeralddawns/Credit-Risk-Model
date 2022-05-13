@@ -16,10 +16,10 @@ Regarding the testing score, the methods performed as follows:
 
     Logistic Regression, No Scaling Testing Data Score: 0.5253083794130158
 
-Prediction 1: Logistic Regression will perform better than Random Forests before scaling because the data has more continuous variables than categorical variables - ### Incorrect
+Prediction 1: Logistic Regression will perform better than Random Forests before scaling because the data has more continuous variables than categorical variables - **Incorrect**
 
-Prediction 2: Scaling will improve the model score as it should reduce the tendency of the models to 'bias' torwards higher numbers - ### No change for Random Forests (difference of 0.001), Correct for Logistic Regression
+Prediction 2: Scaling will improve the model score as it should reduce the tendency of the models to 'bias' torwards higher numbers - **No change for Random Forests (difference of 0.001), Correct for Logistic Regression**
 
-Prediction 3: Logistic Regression will perform better than Random Forests after scaling because scaling helps Logistic Regression more than Random Forests - ### Correct
+Prediction 3: Logistic Regression will perform better than Random Forests after scaling because Logistic Regression has more of a bias towards large numbers - **Correct**
 
 Learning: Not all models have a bias towards higher value numbers. Logistic Regression does and should, therefore, use scaled features. Random Forests Classification does not have this bias, however.
