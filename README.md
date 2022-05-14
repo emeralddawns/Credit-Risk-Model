@@ -5,7 +5,6 @@ This assignment consisted of using python, pandas, and sklearn to build a machin
 The code pre-processes the data by turning categorical data to numeric columns, creating a dummy column where needed, fitting the data to a LogisticRegression model and a RandomForestClassifier model, and printing out the score. Then the data is further processed by scaling the numeric columns, the models are fitted again, and the scores are re-printed.  Predictions were made before each step and used for analysis.
 
 # Analysis
-
 Regarding the testing data score, the methods performed as follows:
 
     Logistic Regression, Scaled - Testing Data Score: 0.7201
